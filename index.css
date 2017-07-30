@@ -1,0 +1,177 @@
+/*通用样式  */
+@font-face {
+  font-family: 'iconfont';  /* project id 368127 */
+  src: url('//at.alicdn.com/t/font_osps5btxpeigrpb9.eot');
+  src: url('//at.alicdn.com/t/font_osps5btxpeigrpb9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_osps5btxpeigrpb9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_osps5btxpeigrpb9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_osps5btxpeigrpb9.svg#iconfont') format('svg');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection,
+span::selection,
+a::selection {
+    background: #fed136;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+/*顶部导航栏样式  */
+.topbar {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    background: #000;
+}
+
+.topbar-content {
+    max-width: 1140px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar-content > ul {
+    display: flex;
+}
+.topbar-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.topbar-content ul a {
+    padding: 15px;
+}
+.topbar-content ul a:hover {
+    color: #fed136;
+}
+.topbar-content ul a:focus {
+    color: #fff;
+    background: #fed136;
+    border-radius: 10px;
+}
+.topbar-content > a {
+    font-size: 2em;
+    color: #fed136;
+}
+
+/*主区域样式  */
+main {
+    width: 100%;
+}
+
+/*欢迎区域样式  */
+.welcome-bg {
+    background-image: url(img/bg-img.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.welcome-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 250px 0;
+    text-align: center;
+}
+.welcome-container p {
+    margin-bottom: 50px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 75px;
+    line-height: 75px;
+    font-weight: bold;
+    color: #fff;
+}
+.welcome-container p:first-child {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-style: italic;
+    color: #fff;
+}
+.welcome-container a {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background: #fed136;
+}
+.welcome-container a:hover {
+    background: #f6bf01;
+}
+
+/*services区域样式  */
+#services {
+    background: #fff;
+}
+#services .services-ct {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 150px 0;
+    text-align: center;
+}
+#services .services-ct h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+#services .services-ct h4 {
+    margin-bottom: 75px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    color: #777;
+}
+#services .services-all {
+    display: flex;
+}
+#services .services-all .service {
+    padding: 15px;
+}
+#services .services-all .service h3 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+#services .services-all .service p {
+    color: #777;
+}
+#e-commerce::before {
+    content: "\e601";
+    display: inline-block;
+    padding: 10px;
+    font-size: 50px;
+    background: #fed136;
+    border-radius: 50%;
+}
+#design::before {
+    content: "\e647";
+    display: inline-block;
+    padding: 10px;
+    font-size: 50px;
+    background: #fed136;
+    border-radius: 50%;
+}
+#security::before {
+    content: "\e63c";
+    display: inline-block;
+    padding: 10px;
+    font-size: 50px;
+    background: #fed136;
+    border-radius: 50%;
+}
