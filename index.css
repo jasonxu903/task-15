@@ -191,18 +191,6 @@ main > div > h4 {
     max-width: 1140px;
     margin: 0 auto;
 }
-#protfolio .protfolio-ct h2 {
-    margin-bottom: 15px;
-    font-size: 40px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-#protfolio .protfolio-ct h4 {
-    margin-bottom: 75px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-style: italic;
-    color: #777;
-}
 #protfolio .protfolio-all {
     display: flex;
     flex-wrap: wrap;
@@ -262,18 +250,6 @@ main > div > h4 {
 #about .about-ct {
     max-width: 1140px;
     margin: 0 auto;
-}
-#about .about-ct h2 {
-    margin-bottom: 15px;
-    font-size: 40px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
-#about .about-ct h4 {
-    margin-bottom: 75px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-style: italic;
-    color: #777;
 }
 #about .timeline li {
     position: relative;
